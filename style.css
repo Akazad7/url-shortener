@@ -1,0 +1,105 @@
+* {
+  padding: 0px 0px;
+  margin: 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+  background-color: #EEA47F;
+}
+
+.main {
+  background-color: #00F5E0;
+  height: 65vh;
+  width: 40rem;
+  margin: 1.9rem;
+  border: .2rem #2500F5 solid;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title p {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #322E47;
+}
+
+#longurl,.slider input{
+  border: 3px rgb(86, 158, 182) solid;
+  border-radius: 6px;
+  width: 25rem;
+  height: 2.5rem;
+  color: #322E47;
+  padding-left: 0.5rem;
+}
+
+.user-input button {
+  padding: 0.7rem 1rem;
+  border: 2px rgb(86, 158, 182) solid;
+  border-radius: 8px;
+  background-color: rgb(189, 4, 189);
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 65%; 
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex; 
+  transition: transform 0.7s ease; 
+}
+
+.slide {
+  min-width: 100%; 
+  position: relative; 
+  display: flex;
+  align-items: center;
+}
+
+.slide input[type="text"] {
+  width: 65%;
+  border: 3px rgb(86, 158, 182) solid;
+  border-radius: 6px;
+  color: #322E47;
+  padding-left: 0.5rem;
+  flex: 1;
+}
+
+.slide .copy-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.08rem 0.5rem;
+  background-color: rgb(190, 4, 190);
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+
+span {
+  margin-top: 2.5px;
+}
+
+.control button {
+  padding: 10px 20px;
+  background-color: #b11111;
+  color: #fff;
+  border: none;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  font-weight: 600;
+}
